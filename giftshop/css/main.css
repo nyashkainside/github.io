@@ -1,6 +1,12 @@
 body{
 	margin: 0;
 }
+@font-face{
+font-family: 'Aparajita';
+src: url('../fonts/aparajb.ttf');
+font-weight: bold;
+
+}
 /*
 *{
 	border:1px solid red;
@@ -159,9 +165,6 @@ body{
   display: block;
 }
 
-.shop{
-
-}
 
 @media screen and (min-width: 700px){
     .shop__preview {
@@ -177,10 +180,6 @@ body{
     [row3-start] "shop__search shop__jewerly" 170px [row3-end]
     [row4-start] "shop__crafts shop__jewerly" 335px [row4-end]
     / 670px 494px;
-  
-    .shop__img--men{
-    background-image: url(../img/shop_man.png);
-    background-size: cover;
   }
   */
   .shop__men{
@@ -201,24 +200,37 @@ body{
   background-color: #f0626e;
   height: 170px;
 }
-.shop__figure{
-  margin: 0;
-}
-
 @media screen and (max-width: 700px){
-  .shop__figure{
+  .shop__block{
     margin: .5em .1em;
   }
-  .shop__img{
-
-  }
-  .shop__search{
-
-  }
-
 }
 @media screen and (max-width: 400px){
   .shop__img{
     height: 250px;
   }
+}
+
+.shop__textBlock{
+  width: 348px;
+  height: 105px;
+  background-color: #362a4f;
+  opacity: 0.8;
+}
+.shop__textBlock p{
+  margin: 0;
+}
+.shop__titles{
+  font-family: Aparajita;
+  font-size: 58px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ef5966;
+}
+.shop__description{
+  color: #ffffff;
+font-family: Lato;
+font-size: 13px;
+font-weight: bold;
+text-transform: uppercase;
 }
