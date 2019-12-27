@@ -196,6 +196,9 @@ font-weight: bold;
   height: 100%;
   object-fit: cover;
 }
+.shop__men{
+  background-image: url(../img/shop_man.png);
+}
 .shop__search{
   background-color: #f0626e;
   height: 170px;
@@ -210,14 +213,19 @@ font-weight: bold;
     height: 250px;
   }
 }
-
-.shop__textBlock{
+.shop__block{
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.shop__violetBlock{
   width: 348px;
   height: 105px;
   background-color: #362a4f;
   opacity: 0.8;
 }
-.shop__textBlock p{
+.shop__violetBlock p{
   margin: 0;
 }
 .shop__titles{
@@ -229,8 +237,22 @@ font-weight: bold;
 }
 .shop__description{
   color: #ffffff;
-font-family: Lato;
-font-size: 13px;
-font-weight: bold;
-text-transform: uppercase;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+.shop__pinkBlock{
+  background-color: #ef5966;
+  opacity: 0.88;
+  width: 348px;
+}
+.shop__pinkText{
+  color: #ffffff;
+  font-family: Aparajita;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 14px 0;
+}
+
